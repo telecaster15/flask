@@ -1,0 +1,9 @@
+.container{
+    width: 720px;
+    margin: 100px auto 150px auto;
+}
+#bcontent{
+    width: 480px;
+    height: 200px;
+    overflow: scroll;
+}

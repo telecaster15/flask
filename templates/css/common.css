@@ -1,0 +1,130 @@
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+
+@font-face {
+	font-family: 'Godo';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2')
+		format('woff2'),
+		url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff')
+		format('woff');
+}
+
+@font-face {
+	font-family: 'Godo';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2')
+		format('woff2'),
+		url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff')
+		format('woff');
+}
+
+.godo * {
+	font-family: 'Godo', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Nanum Gothic", arial, helvetica, sans-serif;
+}
+
+#header {
+	position: fixed;
+	z-index: 10000;
+	left: 0;
+	top: 0;
+	width:100%;
+	background: rgba(255, 255, 255, 0.95);
+	height: 4.2em;
+	line-height: 3.5em;
+	box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	color:red;
+}
+
+#header nav {
+	position:absolute;
+	text-decoration: none;
+	padding: 0 0.5em 0 0.5em;
+	margin-left: 1em;
+	right: 2em;
+	top: 0;
+	height: 4.2em;
+	width : auto;
+	line-height: 3.5em;
+	font-size: 1.2em;
+	font-weight: 400;
+	font-family: 'Godo', sans-serif;
+	color: #2e303d;
+	outline: 0;
+	
+}
+
+
+#header nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.nav-it>li>a:hover {
+	font-weight: bold;
+	color: black;
+}
+
+#logo {
+	float: left;
+	margin: 5px 0 5px 10px;
+}
+
+.background {
+	position: fixed;
+	background: linear-gradient(to top, #d1e7ff 0%, #0084eb 100%) no-repeat;
+	top: -50%;
+	left: -50%;
+	width: 150%;
+	height: 180%;
+	overflow: fragments;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+	font-weight: bolder;
+	font-family: 'Godo', sans-serif;
+}
+
+h2 {
+	font-weight: bold;
+	font-family: 'Godo', sans-serif;
+}
+
+footer {
+	position: relative;
+	/*justify-content: flex-end;*/
+	/*flex-direction: column;*/
+	/*flex-grow: 1;*/
+	left: 0;
+	bottom: 0;
+	height: auto;
+	width: 100%;
+	line-height: 1.2em;
+	padding: 1.5em;
+	background-color: #00253a;
+	color: rgba(185, 186, 187, 0.5);
+	text-align: center;
+	z-index: 5000;
+	margin-top: 50px;
+}
+
+div.blur {
+	display: inline;
+	color: #bcbcbc;
+}

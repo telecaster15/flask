@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>후라이드참잘하는집</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10">
+            <h1>후라이드 참 잘하는 집 - 지점 전국 지도 🌏</h1>
+<iframe class="map", src="/search_map" width="650" height="650"></iframe>
+        </div><br>
+        <div class="col-lg-4">
+            <form action="/search" method="get">
+                <select name="keyword" id="keyword">
+                    <option value="jijum">지점명</option>
+                    <option value="addr">주소</option>
+                </select>
+                <input type="text" name="s_search" id="s_search">
+                <input type="submit" value="검색">
+            </form>
+        </div>
+        <div class="col-md-10">
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>지점명</th>
+        <th>주소</th>
+        <th>전화번호</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for i in lists %}
+    <tr>
+        <td>{{ i[0] }} </td>
+        <td>{{ i[1] }}</td>
+        <td>{{ i[2] }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

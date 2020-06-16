@@ -1,0 +1,61 @@
+
+.container{
+    position: relative;
+    height:auto;
+    margin: 100px auto 180px auto;
+    padding: 20px 30px 20px 30px ;
+    border-radius: 10px;
+    background-color: #d6e7f9;
+    color:#07061e;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 15px;
+    width: 500px;
+
+    /*z-index: 4000;*/
+}
+
+.join_header{
+
+    height:auto;
+    width: 440px;
+    right: 50px;
+    margin: 0 auto 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: #f98a07;
+    color: #07061e;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+fieldset{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    background-color:aliceblue;
+    border-radius:20px ;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.1);
+
+}
+.join_input{
+    text-align: left;
+    margin: 5px auto 15px 5px;
+    height: auto;
+
+}
+.jip{
+    width: 50%;
+    margin: 5px auto;
+    background-image: url("../img/join/point.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    border: 1px solid #bcbcbc;
+}
+
+label{
+    color:indianred;
+    font-size: 12px;
+}
+.buttons{
+    float: right;
+}

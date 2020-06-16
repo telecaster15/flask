@@ -1,0 +1,27 @@
+
+div.main_layout{
+    margin-top: 200px;
+    padding-top: 100px;
+}
+
+.container{
+    margin-top: 200px;
+}
+.table{
+    width: 600px;
+}
+div.shop_map {
+    position: relative;
+    display: block;
+    height: inherit;
+    float: none;
+    width: 980px;
+    max-width: none;
+    border-radius: 10px;
+    background-color: #d6e7f9;
+    color: #07061e;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+    rgba(0, 0, 0, 0.19);
+    font-size: 15px;
+    z-index: 4000;
+}

@@ -1,0 +1,145 @@
+@font-face {
+	font-family: 'Godo';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2')
+		format('woff2'),
+		url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff')
+		format('woff');
+}
+
+@font-face {
+	font-family: 'Godo';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2')
+		format('woff2'),
+		url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff')
+		format('woff');
+}
+
+.godo * {
+	font-family: 'Godo', sans-serif;
+}
+
+.container {
+	position: relative;
+	display: block;
+	height: inherit;
+	float: none;
+	width: 980px;
+	max-width: none;
+	margin: 100px auto 150px auto;
+	padding: 20px 20px 50px 20px;
+	border-radius: 10px;
+	background-color: #d6e7f9;
+	color: #07061e;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	font-size: 15px;
+	z-index: 4000;
+}
+
+.table {
+	background-color: white;
+	margin-bottom: 10px;
+	padding: 10px 20px 10px 20px;
+}
+
+table>th {
+	text-align: center;
+	height: 20px;
+}
+
+thead {
+	background-color: #f98a07;
+	color: #07061e;
+}
+
+.title {
+	width: 500px;
+}
+
+.titles {
+	width: 500px
+}
+
+.heading {
+	background-color: #f98a07;
+	color: #07061e;
+	font-weight: bold;
+}
+
+.count {
+	text-align: right;
+}
+
+.idx {
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.page_count {
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.search {
+	text-align: center;
+}
+
+.comment {
+	background-color: white;
+	margin: 0 auto;
+	height: 70px;
+	width: 85%;
+	border-radius: 10px;
+}
+
+.commnet_user {
+	float: left;
+	position: relative;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	vertical-align: 5px;
+}
+
+.commnet_user>input {
+	width: 100px;
+}
+
+.btn btn-primary {
+	float: right;
+	position: relative;
+}
+
+.comment_content {
+	width: 75%;
+	margin-top: 20px;
+}
+
+.comment_list{
+	background-color: white;
+	margin: 0 auto;
+	height: 70px;
+	
+	
+}
+.comment_list_table{
+	
+}
+.comment_head{
+	width:120px;
+}
+
+.buttons {
+	position: relative;
+	margin-top: 20px;
+	float: right;
+}

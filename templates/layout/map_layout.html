@@ -1,0 +1,50 @@
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+{% for message in messages %}
+<script>
+    alert('{{message}}')
+</script>
+{% endfor %}
+{% endif %}
+{% endwith %}
+
+<div class="container">
+    <div class="row">
+            <div class="starter-template">
+            <h1>후라이드 참 잘하는 집 - 지점 전국 지도 🌏</h1>
+                </div>
+            <iframe class="map", src="/map" width="650" height="650"></iframe>
+        </div><br>
+        <br>
+        <div class="col-lg-4">
+            <form action="/search" method="get">
+                <select name="keyword" id="keyword">
+                    <option value="jijum">지점명</option>
+                    <option value="addr">주소</option>
+                </select>
+                <input type="text" name="s_search" id="s_search">
+                <input type="submit" value="검색">
+            </form>
+        </div>
+        <div class="col-md-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>지점명</th>
+                        <th>주소</th>
+                        <th>전화번호</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for i in range(s|length) %}
+                    <tr>
+                        <td>{{ s[i] }} </td>
+                        <td>{{ t[i] }}</td>
+                        <td>{{ a[i] }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
